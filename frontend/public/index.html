@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meninas Digitais</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>Bem-vindo ao Sistema Meninas Digitais</h1>
-  <nav>
-    <ul>
-      <li><a href="login-adm.html">Login Admin</a></li>
-      <li><a href="login-tutora.html">Login Tutora</a></li>
-      <li><a href="login-aluna.html">Login Aluna</a></li>
-      <li><a href="register-tutora.html">Cadastro Tutora</a></li>
-      <li><a href="register-aluna.html">Cadastro Aluna</a></li>
-    </ul>
-  </nav>
+    <header>
+        <div class="logo">
+            <img src="/frontend/imagens/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="login-adm.html">Administração</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="background-image"></div>
+        <div class="cards-container">
+            <div class="card">
+                <div class="icon-circle">
+                    <img src="/frontend/imagens/usuarioPreto.png" alt="Icon 1">
+                </div>
+                <h3>Alunas</h3>
+                <p>Deseja participar do projeto? Cadastre-se.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div class="card">
+                <div class="icon-circle">
+                    <img src="/frontend/imagens/TutorPreto.png" alt="Icon 2">
+                </div>
+                <h3>Tutores</h3>
+                <p>Área dos Tutores.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Igor Gustavo Mainardes, Daniel Seidenthal, Vinicius Henrique Cerrone</p>
+    </footer>
 </body>
 </html>
